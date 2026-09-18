@@ -1,6 +1,6 @@
 __tests__
 .vscode
-Examples/
+examples/
 coverage
 .idea
 node_modules/
@@ -9,3 +9,5 @@ node_modules/
 .travis.yml
 babel.config.js
 jest.setup.js
+
+example/

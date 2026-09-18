@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:package": "jest --ci --coverage __tests__/InAppReview-test.js  InAppReviewWithoutNativeModules-test.js",
-    "test:example": "cd Example && jest --ci --coverage",
+    "test:example": "cd example && jest --ci --coverage",
     "test": "npm run test:package && npm run test:example",
     "test:ci": "jest --ci --coverage",
     "lint": "eslint . --fix"
@@ -77,7 +77,7 @@
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/Example/"
+      "<rootDir>/example/"
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/jest.setup.js"
